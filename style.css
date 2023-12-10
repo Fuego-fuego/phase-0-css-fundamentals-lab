@@ -2,4 +2,36 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  }
+header {
+  text-align: center;    
+}
+
+img{
+  display:block;
+  margin-inline: auto;
+}
+
+nav a{
+padding-inline: 10px;
+background: grey;
+}
+
+figcaption{
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#featured-property p{
+  width: 800px;
+  margin-inline: auto;
+  margin-block:2rem;
+  text-align: center;
+}
+
+#details div {
+  float:left;
+  background: red;
+  text-align: center;
+  width: 25%;
 }
